@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cardo", serif;
+    
+}
+
+:root {
+    --dosink-blue: #B0C7DD;
+    --dosink-creme: #F2E3D0;
+    --dosink-brown: #7C7D80;
+    --burnt-orange: #CC5500;
+    --light-blue: #59acd3;
+    --navy-blue: #003366;
+    --navy-blue-hover: #336699;
+
+
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
