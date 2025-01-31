@@ -1,17 +1,17 @@
 import { NavLink } from "react-router-dom";
-import "./HeroContainer.css"
+
 export const HeroContainer = () => {
   return (
     <>
-      <div className="hero-container">
-        <div className="hero-content">
-          <h1 className="hero-heading">
-            Transforming ideas into
-            <span className="hero-color"> Digital Reality </span>
-             with our expertise
+      <div className="grid gap-4 p-4 md:grid-cols-2">
+        <div className="flex min-h-[500px] flex-col items-start p-10 lg:justify-between xl:pt-20 pt-10 lg:pr-20 xl:pb-20 lg:pl-25">
+          <h1 className="mb-10 text-4xl font-bold">
+            Transforming ideas into{" "}
+            <span className="text-burntorange"> Digital Reality</span> with our
+            expertise
           </h1>
 
-          <p className="hero-paragraph">
+          <p className="mb-10 text-xl font-medium">
             Bringing your vision to life with fresh, forward-thinking ideas and
             services designed to meet your needs. Dedicated to understanding and
             meeting the unique needs of each client, ensuring that the
@@ -19,15 +19,19 @@ export const HeroContainer = () => {
             requirements.
           </p>
 
-          <div className="hero-button-container">
-            <NavLink to="/our-work" className="learn-button">
-              Learn More
-            </NavLink>
-          </div>
+          <NavLink
+            to="/our-work"
+            className="cursor-pointer rounded-lg bg-blue-950 p-3 text-xl text-amber-50 hover:bg-gray-500"
+          >
+            Learn More
+          </NavLink>
         </div>
-
-        <div className="hero-image-container">
-          <img src="/images/hero-image.png" alt="hero-image" className="hero-image"/>
+        <div className="hidden p-10 md:flex md:items-center md:justify-center lg:p-15">
+          <img
+            className="max-h-[400px]"
+            src="/images/hero-image.png"
+            alt="Random image"
+          />
         </div>
       </div>
     </>
