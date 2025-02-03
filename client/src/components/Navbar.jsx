@@ -63,7 +63,7 @@ export const Navbar = () => {
         </button>
 
         <div
-          className={`fixed inset-0 flex flex-col justify-between bg-white md:hidden ${
+          className={`fixed inset-0 flex flex-col justify-between bg-white md:hidden z-50 ${
             hamburger ? "hidden" : ""
           }`}
         >
