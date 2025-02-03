@@ -1,7 +1,7 @@
 export const ContactForm = () => {
   return (
     <>
-      <form className="mx-6 my-4 flex flex-col gap-4 rounded-lg bg-white px-4 py-4 shadow-2xl lg:col-span-7">
+      <form className="mx-6 my-4 flex flex-col gap-4 rounded-lg bg-white px-4 py-4 shadow-2xl lg:col-span-7">    
         <div className="grid gap-4 md:grid-cols-6">
           <div className="flex w-full flex-col md:col-span-3 lg:col-span-6 lg:flex-row lg:items-start">
             <label htmlFor="need" className="p-1 lg:w-[40%]">
@@ -44,3 +44,5 @@ export const ContactForm = () => {
     </>
   );
 };
+
+

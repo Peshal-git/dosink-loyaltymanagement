@@ -1,4 +1,5 @@
-import { ContactForm } from "../components/ContactForm";
+// import { ContactForm } from "../components/ContactForm";
+import { Form } from "../components/Form";
 
 export const Contact = () => {
   return (
@@ -18,13 +19,13 @@ export const Contact = () => {
               href="#"
               className="mt-4 block text-center text-blue-700 underline lg:text-start"
             >
-              {" "}
-              Check out our FAQ{" "}
+              Check out our FAQ
             </a>
           </div>
 
           <div className="lg:col-span-1"></div>
-          <ContactForm />
+          {/* <ContactForm /> */}
+          <Form />
         </div>
       </div>
     </>
