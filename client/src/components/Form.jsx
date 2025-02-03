@@ -88,16 +88,17 @@ export const Form = () => {
 
           <div className="flex w-full flex-col md:col-span-3 lg:col-span-6 lg:flex-row lg:items-start">
             <label htmlFor="title" className="p-1 lg:w-[20%]">
-              Title:
+            Title:
             </label>
             <input
               type="text"
               placeholder="Enter your title"
-              className="min-h-23 w-full overflow-x-hidden overflow-y-auto rounded-lg border-2 border-gray-400 p-2 sm:h-auto lg:w-[80%]"
-              maxLength="40"
+              className="truncate rounded-lg border-2 border-gray-400 p-2 lg:w-[80%]"
+              maxLength="40" 
               name="title"
-            ></input>
+            />
           </div>
+
         </div>
 
         <button className="cursor-pointer rounded-lg bg-blue-950 px-3 py-2 text-white hover:bg-gray-500 md:self-start" name="submit">
