@@ -22,3 +22,9 @@
     --navy-blue: #003366;
     --navy-blue-hover: #336699;
 }
+
+@layer base{
+    .container{
+        @apply px-6 py-12 max-w-7xl mt-2 mx-auto lg:px-8
+    }
+}

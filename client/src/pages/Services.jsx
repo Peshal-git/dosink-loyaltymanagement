@@ -1,7 +1,8 @@
+import { BentoGrid } from "../components/BentoGrid"
 export const Services = () => {
 
-    return <> 
-    Services
+    return <>
+        <BentoGrid/>
     </>
     
     
